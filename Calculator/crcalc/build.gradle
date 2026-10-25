@@ -1,0 +1,15 @@
+// Constructive-reals library (com.hp.creals) used by the calculator.
+plugins {
+    id 'java-library'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+sourceSets {
+    main {
+        java.srcDir 'src'
+    }
+}
